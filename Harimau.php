@@ -13,7 +13,7 @@ class Harimau extends Gabungan
     public $keahlian = "lari cepat";
     public $attackPower = 7;
     public $defensePower = 8;
-    public $darah = 50;
+    // public $darah = 50;
 
 
     public function getInfoHewan()
@@ -22,7 +22,7 @@ class Harimau extends Gabungan
         echo "Jumlah kakinya : $this->jumlahKaki <br>";
         echo "Keahliannya : $this->keahlian <br>";
         echo "Kekuatan Serangnya : $this->attackPower <br>";
-        echo "Kekuatan Bertahanya : $this->defensePower <br>";
+        echo "Kekuatan Bertahannya : $this->defensePower <br>";
         echo "Darahnya : $this->darah <br>";
     }
 }

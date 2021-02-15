@@ -16,7 +16,7 @@ trait Fight
 
     public function diserang($nama_penyerang, $attack)
     {
-        $darahbaru = $this->darah - ($attack / $this->defensePower);
+        $darahbaru = $this->darah - $attack / $this->defensePower;
         $this->darah = $darahbaru;
         echo "$this->nama Sedang diserang  $nama_penyerang <br>";
     }

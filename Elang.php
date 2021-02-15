@@ -8,12 +8,12 @@ class Elang extends Gabungan
 {
 
     // use Gabungan;
-    public $nama = "Elang Sakti";
+    public $nama = "Elang Magis";
     public $jumlahKaki = 2;
     public $keahlian = "terbang tinggi";
     public $attackPower = 10;
     public $defensePower = 5;
-    public $darah = 50;
+    // public $darah = 50;
 
     public function getInfoHewan()
     {
@@ -21,7 +21,7 @@ class Elang extends Gabungan
         echo "Jumlah kakinya : $this->jumlahKaki <br>";
         echo "Keahliannya : $this->keahlian <br>";
         echo "Kekuatan Serangnya : $this->attackPower <br>";
-        echo "Kekuatan Bertahanya : $this->defensePower <br>";
+        echo "Kekuatan Bertahannya : $this->defensePower <br>";
         echo "Darahnya : $this->darah <br>";
     }
 }

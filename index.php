@@ -11,21 +11,12 @@ $harimau = new Harimau();
 $elang = new Elang();
 
 echo "Hewan ini adalah : $elang->nama <br>";
+echo "Hewan ini adalah : $harimau->nama <br>";
 $elang->atraksi();
 $harimau->atraksi();
 
 $elang->serang($harimau->nama);
 $harimau->diserang($elang->nama, $elang->attackPower);
 
-
-
-$elang->serang($harimau->nama);
-$harimau->diserang($elang->nama, $elang->attackPower);
-
-$elang->serang($harimau->nama);
-$harimau->diserang($elang->nama, $elang->attackPower);
-
-$elang->serang($harimau->nama);
-$harimau->diserang($elang->nama, $elang->attackPower);
 
 $harimau->getInfoHewan();
